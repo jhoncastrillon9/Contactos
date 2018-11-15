@@ -3,6 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Contactos.App">
     <Application.Resources>
-
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Blue"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="BorderRadius" Value="25"/>
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style x:Key="MiEstilo" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="Blue"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="BorderRadius" Value="25"/>
+            <Setter Property="TextColor" Value="Green"/>
+        </Style>
     </Application.Resources>
 </Application>

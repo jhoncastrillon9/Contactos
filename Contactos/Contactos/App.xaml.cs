@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Contactos.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Contactos
@@ -11,7 +12,7 @@ namespace Contactos
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new IngresoPage());
         }
 
         protected override void OnStart()

@@ -157,4 +157,7 @@
       <Name>Contactos</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\agenda.png" />
+  </ItemGroup>
 </Project>

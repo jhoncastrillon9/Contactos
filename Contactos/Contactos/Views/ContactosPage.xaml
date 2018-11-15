@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contactos.Views.ContactosPage"
+             Title="Contactos">
+
+    <ListView x:Name="listContactos"
+              HasUnevenRows="True"
+              ItemSelected="Conctac_Selected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ImageCell ImageSource="{Binding Imagen}"
+                           Text="{Binding Nombres}"
+                           Detail="{Binding Telefono}"
+                           TextColor="Black"
+                           DetailColor="DarkGray"
+                           />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    
+</ContentPage>
