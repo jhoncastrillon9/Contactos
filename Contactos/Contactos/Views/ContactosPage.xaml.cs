@@ -27,6 +27,7 @@ namespace Contactos.Views
             MisContactos = new List<Contacto>
             {
 
+
                 new Contacto {Nombres="Juan Rodriguez", Telefono="123456789", Direccion="cra 11", Imagen="noimg.png" },
                 new Contacto {Nombres="Daniel Ayala", Telefono="123456789", Direccion="cra 12", Imagen="noimg.png" },
                 new Contacto {Nombres="Tulio Galarga", Telefono="123456789", Direccion="cra 13", Imagen="Duck.png" },
